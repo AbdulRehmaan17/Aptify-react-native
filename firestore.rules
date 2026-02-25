@@ -1,0 +1,18 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ================================================
+    // 🚨 DEVELOPMENT / DEMO RULES ONLY
+    // --------------------------------
+    // - TEMPORARILY allow ALL reads and writes
+    // - Allows FULL access for authenticated AND unauthenticated users
+    // - DO NOT SHIP TO PRODUCTION
+    // - Replace with restrictive, role-based rules before launch
+    // ================================================
+
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
