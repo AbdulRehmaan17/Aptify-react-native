@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+📱 Aptify — Smart Property & Service Management App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aptify is a modern mobile application built to simplify property discovery, service management, and user interactions within a single platform. The app connects users with properties and verified service providers, offering a smooth, secure, and intuitive experience.
 
-## Get started
+Designed with scalability and performance in mind, Aptify focuses on solving real-world problems in property management by combining smart navigation, authentication, and real-time data handling.
 
-1. Install dependencies
+🚀 Key Features
 
-   ```bash
-   npm install
-   ```
+User Authentication
 
-2. Start the app
+Secure email & password sign-up and login
 
-   ```bash
-   npx expo start
-   ```
+Persistent authentication using Firebase
 
-In the output, you'll find options to open the app in a
+Property Listings
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Browse approved properties in real time
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Clean and responsive UI for better discovery
 
-## Get a fresh project
+Service Providers
 
-When you're ready, run:
+Access registered service providers (e.g., constructors, renovators)
 
-```bash
-npm run reset-project
-```
+Filtered and structured data retrieval
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Onboarding Flow
 
-## Learn more
+Guided onboarding for first-time users
 
-To learn more about developing your project with Expo, look at the following resources:
+Seamless transition based on user status
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Real-Time Updates
 
-## Join the community
+Live data sync using Firebase & Firestore
 
-Join our community of developers creating universal apps.
+Optimized performance with minimal latency
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Smooth Navigation
+
+File-based routing powered by Expo Router
+
+Reliable screen transitions and state handling
+
+🛠 Tech Stack
+
+Frontend: React Native (Expo)
+
+Navigation: Expo Router
+
+Backend & Auth: Firebase Authentication
+
+Database: Cloud Firestore
+
+State Handling: React Hooks
+
+Platform: iOS & Android
+
+🎯 Purpose
+
+Aptify is developed as a scalable solution for property and service management, focusing on usability, performance, and clean architecture. The app is ideal for users seeking properties as well as professionals offering services, all within a unified mobile experience.
+
+📌 Status
+
+This project is actively developed and maintained as part of an academic and practical software initiative.
